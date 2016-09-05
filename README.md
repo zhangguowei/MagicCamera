@@ -1,3 +1,7 @@
+2016-9-5
+MagicFilter/jni/skinsmooth/MagicBeauty.cpp 里面的  #include "Math.h" -->#include "math.h"
+需要在unbuntu下面编译工程里面的jni，编译出来美颜库armeabi-v7a\libMagicSDK.so
+
 # MagicCamera 
 
 Idea from:android-gpuimage

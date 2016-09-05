@@ -21,14 +21,14 @@ public abstract class ImageEditFragment extends Fragment{
 	public void onHide(){
 		if(isChanged()){
 			AlertDialog.Builder builder = new Builder(mContext);
-			builder.setTitle("ÌáÊ¾").setMessage("ÊÇ·ñÓ¦ÓÃĞŞ¸Ä£¿").setNegativeButton("ÊÇ", new OnClickListener() {
+			builder.setTitle("æç¤º").setMessage("æ˜¯å¦åº”ç”¨ä¿®æ”¹ï¼Ÿ").setNegativeButton("æ˜¯", new OnClickListener() {
 				
 				@Override
 				public void onClick(DialogInterface dialog, int which) {	
 					onDialogButtonClick(dialog);
 					mMagicDisplay.commit();					
 				}
-			}).setPositiveButton("·ñ", new OnClickListener() {
+			}).setPositiveButton("å¦", new OnClickListener() {
 				
 				@Override
 				public void onClick(DialogInterface dialog, int which) {	
